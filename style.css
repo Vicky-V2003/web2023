@@ -1,0 +1,67 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #2041d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #chart {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bmi-category {
+    display: inline-block;
+    margin-left: 10px;
+    padding:10px;
+    background-color: greenyellow;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .bmi-chart-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bmi-chart-table th,
+  .bmi-chart-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .bmi-chart-table th {
+    background-color: white;
+  }
+  
